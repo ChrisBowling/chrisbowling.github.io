@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 @font-face {
-    font-family:COCOGOOSE;
-    src:url(Cocogoose_trial.ttf);
+    font-family:cocogoose;
+    src:url(Cocogoose_trial.otf);
 }
 body {
   padding:50px;
@@ -278,7 +278,7 @@ footer {
     margin: 10px 0px 0px 0px;
 }
 .directorytext {
-    font-family:COCOGOOSE, Lato;
+    font-family:cocogoose, Lato;
     font-size: 24px;
     color: dimgrey;
     background-color: white;
