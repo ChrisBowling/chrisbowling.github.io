@@ -376,13 +376,6 @@ h1 {
 .welcome {
     font-size: 40px;
 }
-.photocaption {
-    opacity: 0.0;
-}
-.photocaption:hover {
-    opacity: 1.0;
-    transition-duration: 1s;
-}
 .graphictext {
     font-size: 20px;
 }
@@ -460,6 +453,9 @@ h1 {
     background-size: cover;
     background-position: top;
 }
+.phototile {
+    height: 120px;
     
+}
     
     
