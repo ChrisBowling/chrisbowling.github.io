@@ -440,5 +440,25 @@ h1 {
     background-size: cover;
     background-position: center;
 }
+#LondonLogo {
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+            ),
+    url(../images/DESIGN/londonlogo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#JoshEllis {
+    linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+            ),
+    url(../images/DESIGN/JoshEllis.jpg);
+    background-size: cover;
+    background-position: center;
+}
+    
     
     
