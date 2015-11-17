@@ -448,16 +448,17 @@ h1 {
             ),
     url(../images/DESIGN/londonlogo.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 #JoshEllis {
-    linear-gradient(
+    background:
+        linear-gradient(
             rgba(0,0,0,0.7),
             rgba(0,0,0,0.7)
             ),
     url(../images/DESIGN/JoshEllis.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
     
     
