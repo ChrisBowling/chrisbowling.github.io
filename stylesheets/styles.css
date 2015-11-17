@@ -399,7 +399,7 @@ h1 {
             rgba(0,0,0,0.7),
             rgba(0,0,0,0.7)
             ),
-        url("../images/DESIGN/syllabuscover.jpg");
+        url("../images/DESIGN/thumbnails/syllabuscover_small.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -409,7 +409,7 @@ h1 {
             rgba(0,0,0,0.7),
             rgba(0,0,0,0.7)
             ),
-        url(../images/DESIGN/TYPOGRAPHYGRAPHIC.jpg);
+        url(../images/DESIGN/thumbnails/TYPOGRAPHYGRAPHIC_small.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -419,7 +419,7 @@ h1 {
             rgba(0,0,0,0.7),
             rgba(0,0,0,0.7)
             ),
-    url(../images/DESIGN/popespread.jpg);
+    url(../images/DESIGN/thumbnails/popespread_small.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -429,7 +429,7 @@ h1 {
             rgba(0,0,0,0.7),
             rgba(0,0,0,0.7)
             ),
-    url(../images/DESIGN/huskercover7.jpg);
+    url(../images/DESIGN/thumbnails/huskercover7_.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -439,7 +439,7 @@ h1 {
             rgba(0,0,0,0.7),
             rgba(0,0,0,0.7)
             ),
-    url(../images/DESIGN/londonlogo.jpg);
+    url(../images/DESIGN/thumbnails/londonlogo_small.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -449,13 +449,16 @@ h1 {
             rgba(0,0,0,0.7),
             rgba(0,0,0,0.7)
             ),
-    url(../images/DESIGN/JoshEllis.jpg);
+    url(../images/DESIGN/thumbnails/JoshEllis_small.jpg);
     background-size: cover;
     background-position: top;
 }
 .phototile {
     height: 120px;
-    
+}
+.phototile:hover {
+    opacity: 0.6;
+    transition-duration: .5s;
 }
     
     
