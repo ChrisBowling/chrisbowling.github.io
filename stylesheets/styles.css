@@ -349,7 +349,7 @@ h1 {
 .contenttext {
     text-align: center;
     margin-bottom: -1px;
-    text-decoration: none;
+    color: black;
 }
 .storyimage:hover {
     opacity: 0.6;
@@ -471,7 +471,7 @@ h1 {
     background-size: cover;
     background-position:center;
 }
-#NEMA {
+#nema {
     background:
         linear-gradient(
             rgba(0,0,0,0.7),
