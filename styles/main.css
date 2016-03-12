@@ -1,0 +1,210 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-family: monospace;
+    color: black;
+    font-size: 1.1em;
+    line-height: 1.3;
+}
+
+h2 {
+    font-family: noodle;
+    font-size: 2.5em;
+    
+}
+
+h3 {
+    font-family:noodle;
+    font-size:1.5em;
+    margin-top: 10px;
+}
+
+h4 {
+    font-family:noodle;
+    font-size:1.2em;
+    margin-top: 10px;
+}
+
+.spacer {
+    width: 100%;
+    height:15px;
+}
+
+@font-face {
+    font-family:"noodle";
+    src:url(big_noodle_titling.ttf);
+}
+
+@font-face {
+    font-family:"noodle oblique";
+    src:url(big_noodle_titling_oblique.ttf);
+}
+
+.header {
+    background-color: white;
+    width:100%;
+}
+
+.head {
+    display: inline-block;
+}
+
+#resumecontact {
+    float: right;
+    padding: 30px;
+    font-family: "noodle";
+    font-size: 1.3em;
+    text-align: right;
+    color: #2a2a2a;
+}
+
+.resume:hover {
+    color: mediumpurple;
+    transition-duration: .3s;
+}
+
+.resumehead {
+    font-family: noodle;
+    font-size: 4em;
+}
+
+.resumewrapper {
+    width:100%;
+}
+
+.resume-1 {
+    width:45%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.resume-2 {
+    width:49%;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.line2 {
+    width:100%;
+    height: 2px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color: #00a6ed;
+}
+
+@media only screen and (max-width:700px) {
+    [class*='resume-']{
+        width:100%;
+    }
+}
+
+#title {
+    font-family:"noodle";
+    font-size: 3em;
+    padding: 15px;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+.contenttitle {
+    padding: 20px;
+    font-family: noodle oblique;
+    font-size: 3.3em;
+    color: white;
+}
+
+.about{
+    background-color: #00a6ed;
+}
+
+.words{
+    background-color: #7fb800;
+}
+
+.designs {
+    background-color: #f6511d;
+}
+
+.pictures {
+    background-color: #ffb400;
+    color: #ffb400;
+}
+
+.projects {
+    background-color: rgb(255, 56, 110);
+    color: rgb(255, 56, 110);
+}
+
+.content {
+    padding: 20px;
+    padding-top: 0px;
+    color:white;
+}
+
+.hide {
+    display:none;
+}
+
+.footer {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    height: 50px;
+    padding:20px;
+}
