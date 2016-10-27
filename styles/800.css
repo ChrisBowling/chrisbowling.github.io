@@ -55,7 +55,7 @@ a {
 p {
     font-family: monospace;
     color: black;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.3;
 }
 
@@ -155,7 +155,7 @@ h4 {
 #title {
     font-family:"noodle";
     font-size: 7em;
-    padding: 15px;
+    padding: 50px;
 }
 
 .line {
@@ -165,9 +165,9 @@ h4 {
 }
 
 .contenttitle {
-    padding: 20px;
+    padding: 50px;
     font-family: noodle oblique;
-    font-size: 2em;
+    font-size: 8em;
     color: white;
 }
 
@@ -194,7 +194,7 @@ h4 {
 }
 
 .content {
-    padding: 20px;
+    padding: 50px;
     padding-top: 0px;
     color:white;
 }
