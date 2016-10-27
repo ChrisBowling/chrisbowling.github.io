@@ -103,9 +103,10 @@ h4 {
 
 #resumecontact {
     float: right;
-    padding: 30px;
+    padding: 76px;
+    padding-right: 20px;
     font-family: "noodle";
-    font-size: 1.3em;
+    font-size: 3em;
     text-align: right;
     color: #2a2a2a;
 }
